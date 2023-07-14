@@ -1,5 +1,5 @@
 name: 🔥Aplicação
-description: Issues relacionadas a análises de aplicações desenvolvidas no treinamento
+description: Issues relacionadas às aplicações desenvolvidas no treinamento
 title: "Aplicação: [NOME_DA_APLICAÇÃO]"
 labels: [🔥aplicação]
 body:
@@ -15,8 +15,7 @@ body:
   - type: dropdown
     id: functionality-check
     attributes:
-      label: Sua aplicação contém funcionalidades que não foram mostradas nas aulas da aplicação?
-      description: Para ser analisada, sua aplicação deve ter apenas as funcionalidades mostradas na aula dela (a não ser que o oposto tenha sido pedido)
+      label: A aplicação contém funcionalidades que não foram mostradas nas aulas?
       options:
         - Sim
         - Não
@@ -25,8 +24,7 @@ body:
   - type: dropdown
     id: language-features-check
     attributes:
-      label: Sua aplicação contém funcionalidades da linguagem que não foram mostradas no CJRM até aqui?
-      description: Para ser analisada, sua aplicação deve ter apenas as funcionalidades da linguagem mostradas até aqui no CJRM (a não ser que o oposto tenha sido pedido)
+      label: A aplicação contém features da linguagem que não foram mostradas nas aulas?
       options:
         - Sim
         - Não
@@ -35,8 +33,8 @@ body:
   - type: input
     id: repo-link
     attributes:
-      label: Link do repositório da aplicação (ou pasta pública no Google Drive)
-      placeholder: Insira aqui o link do repositório ou pasta no Drive
+      label: Link do repositório da aplicação
+      placeholder: Insira aqui o link do repositório da sua aplicação
     validations:
       required: true
   - type: textarea
